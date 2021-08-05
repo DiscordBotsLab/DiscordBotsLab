@@ -1,7 +1,7 @@
 # Hello Discord :wave:
 ```ts
 class DiscordBotsLab extends DiscordGamesLab {
-    public repos: Array<DiscordBots>
+    public repos: Array<Repository>
     public api: string = 'Work in progress'
     public server: string = ''
 
