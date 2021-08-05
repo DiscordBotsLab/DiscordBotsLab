@@ -1,16 +1,16 @@
-### Hi there 👋
+# Hello Discord :wave:
+```ts
+class DiscordBotsLab extends DiscordGamesLab {
+    public repos: Array<DiscordBots>
+    public api: string = 'Work in progress'
+    public server: string = ''
 
-<!--
-**DiscordBotsLab/DiscordBotsLab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    readonly description: string = 'Creating Discord bots for the future'
+    readonly preferredLanguages: Array<string> = ['js', 'ts']
+    readonly canworkin: Array<string> = ['html', 'css', 'js', 'ts']
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    constructor(team: Array<TeamMember>) {
+        super(team)
+    }
+}
+```
